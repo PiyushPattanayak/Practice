@@ -1,4 +1,5 @@
-﻿using BasicProgramsLibrary;
+﻿using System;
+using BasicProgramsLibrary;
 
 namespace BasicPrograms
 {
@@ -6,8 +7,12 @@ namespace BasicPrograms
     {
         public static void Main(string[] args)
         {
-            HelloWorld helloWorld = new HelloWorld();
-            helloWorld.Run();
+            //PrintStars ps = new PrintStars();
+            //ps.PrintSolidAndHollowBoxes();
+
+            MathOperations mathOps = new MathOperations();
+            mathOps.PrintAllPrimesLessThanEqualTo();
+
         }
     }
 }
